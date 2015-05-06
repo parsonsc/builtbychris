@@ -1,0 +1,100 @@
+section.contact {
+	padding: 75px 0;
+	background: $grey;
+	overflow: hidden;
+}
+section.contact aside {
+	float: left;
+	width: 20%;
+}
+section.contact aside h2 {
+	margin: 0 0 35px 0;
+}
+section.contact aside ul {
+	clear: both;
+	overflow: hidden;
+}
+section.contact aside ul li {
+	display: block;
+	float: left;
+}
+section.contact aside ul li i {
+	border: 1px solid $black;
+	padding: 5px 8px;
+	border-radius: 50%;
+	display: inline-block;
+	font-size: 20px;
+	margin-right: 10px;
+}
+section.contact form {
+	float: right;
+	width: 65%;
+}
+section.contact form .form-group {
+	width: 100%;
+	clear: both;
+}
+section.contact form .form-group label {
+	width: 100%;
+	display: block;
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+section.contact form .form-group input,
+section.contact form .form-group textarea,
+section.contact form .form-group button {
+	width: 92%;
+	display: block;
+	background: $white;
+	border: 1px solid $grey;
+	padding: 10px 15px;
+	font-size: 15px;
+	line-height: 1.42857143;
+	margin-bottom: 25px;
+	border-radius: 0;
+	box-shadow: none;
+}
+section.contact form .form-group input {	
+	height: 20px;	
+}
+section.contact form .form-group button.send_button {	
+	height: 50px;	
+	border-radius: 10px;
+	width: 96%;
+	color: #fff;
+	background-color: #888;
+	border-color: #888;
+	letter-spacing: 1px;
+	cursor: pointer;
+	font-size: 23px;
+}
+section.contact form .form-group button.send_button:hover {
+	background-color: blue;
+}
+
+@include respond-to(tablet) {
+	section.contact {padding: 65px 5%;}
+	section.contact form .form-group button.send_button {width: 100%;}
+}
+
+@include respond-to(mobile) {
+	section.contact {padding: 35px 5%;}
+	section.contact aside {
+		float: none;
+		width: 100%;
+	}
+	section.contact form {
+		float: none;
+		width: 100%;
+	}
+	section.contact form .form-group input,
+	section.contact form .form-group textarea,
+	section.contact form .form-group button {
+		width: 89%;
+		padding: 10px 15px;
+		font-size: 14px;
+		margin-bottom: 20px;
+		overflow: hidden;
+	}
+	section.contact form .form-group button.send_button {width: 100%;}
+}
