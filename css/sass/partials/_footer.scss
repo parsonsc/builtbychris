@@ -2,48 +2,10 @@
 // FOOTER STYLESHEET
 
 
-footer.site_footer {
-	text-align: left;
-	padding: 20px 0;
-	text-transform: uppercase;
-	bottom: 0;
-	font-size: 14px;
-	color: $font_grey;
-}
-footer.site_footer h3 {
-	font-size: 40px;
-}
-footer.site_footer nav.footer_nav {
-	margin: 15px auto;
-	width: 400px;
-	text-align: center;
-}
-footer.site_footer nav.footer_nav ul {
-	margin: 0 auto;
-	overflow: hidden;
+@include respond-to(tablet) {
+
 }
 
-footer.site_footer nav.footer_nav ul.site_link {
-	padding: 20px 0;
-	border-top: 1px solid #000;
-	border-bottom: 1px solid #000;
-	margin: 0 auto 20px auto;
-}
-footer.site_footer nav.footer_nav ul li {
-	display: inline-block;
-	padding: 0 5%;
-	letter-spacing: 1px;
-	font-size: 16px;
-}
-@include respond-to(tablet) {
-	footer.site_footer {
-		padding: 20px 5%;
-		font-size: 12px;
-	}
-}
 @include respond-to(mobile) {
-	footer.site_footer {
-		padding: 20px 5%;
-		font-size: 10px;
-	}
+	
 }

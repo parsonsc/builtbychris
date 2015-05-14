@@ -1,85 +1,56 @@
 // BUILTBYCHRIS.COM
 // FRAMEWORK STYLESHEET
 
-/*NORMALIZE*/
-body {
-	margin: 0;
+*,
+*:after,
+*::before {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
-a {
-	text-decoration: none;
-	color:  $black;
-	@include transition;
+html,
+body,
+.site_container,
+.site_pusher,
+.site_content {
+	height: 100%;
 }
-ul {
-	padding: 0;
-	margin: 0;
+.site_content {
+	overflow-y: scroll;
 }
-img {
-	outline: none;
-	border: none;
-}
-h1,
-h2,
-h3,
-h4,
-h5 {
-	font-weight: lighter;
-	margin: 0;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-}
-h1 {
-	font-size: 4em;
-}
-h2 {
-	font-size: 36px;	
-}
-.show_desktop {
-	display: block;
-}
-.show_mobile {
-	display: none;
-}
-.clear {
-	overflow: hidden;
-	float: none;
-	clear: both;
-}
-/*FRAMEWORK STYLES*/
-.site_container {
-	@include font_body_copy;
-	overflow: hidden;
+.site_content,
+.site_content-inner {
 	position: relative;
 }
-.inner_content {
-	width: 100%;
-	max-width: 1200px;
-	min-width: 960px;
-	margin: 0 auto;
+.site_container {
+	position: relative;
+	overflow: hidden;
 }
-// WAYPOINTS
-.bounceInLeft, 
-.bounceInRight, 
-.fadeInUp, 
-.fadeInUpDelay, 
-.fadeInDown, 
-.fadeInUpD, 
-.fadeInLeft, 
-.fadeInRight, 
-.bounceInDown,
-.fadeIn,
-.fadeOut {
-	visibility: visible!important;
+.site_pusher {
+	position: relative;
+	left: 0;
+	z-index: 99;
+	height: 100%;
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: transform 0.5s;
+}
+.site_pusher::after {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 0;
+	height: 0;
+	background: rgba(0,0,0,0.2);
+	content: '';
+	opacity: 0;
+	-webkit-transition: opacity 0.5s, width 0.1s 0.5s, height 0.1s 0.5s;
+	transition: opacity 0.5s, width 0.1s 0.5s, height 0.1s 0.5s;
+}
+/* Fallback example for browsers that don't support 3D transforms (and no JS fallback) */
+.no-csstransforms3d .site_pusher,
+.no-js .site_pusher {
+	padding-left: 300px;
 }
 
 @include respond-to(mobile) {
-	/*GENERIC STYLES*/
-	.show_desktop {display: none;}
-	.show_mobile {display: none;}
-
-	/*FRAMEWORK STYLES*/
-	.inner_content {
-		max-width: 100%;
-		min-width: 100%;
-	}
+	
 }
