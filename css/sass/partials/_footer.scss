@@ -1,0 +1,20 @@
+footer.site_footer {
+	width: 100%;
+	position: absolute;
+	left: 0;
+	padding: 60px 0;
+	background: #000;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	color: $white;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+@include respond-to(tablet) {
+
+}
+
+@include respond-to(mobile) {
+
+}

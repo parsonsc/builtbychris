@@ -1,0 +1,164 @@
+.clear {
+	clear: both;
+	overflow: hidden;
+	float: none;
+}
+.show_mobile {
+	display: none;
+}
+.show_desktop {
+	display: block;
+}
+html,
+body {
+	margin: 0;
+  	padding: 0;
+  	height: 100%;
+}
+body {
+	// padding-bottom: 410px;
+}
+a {
+	text-decoration: none;
+	outline: none;
+}
+ul {
+ 	padding: 0;
+ 	margin: 0;
+} 
+img {
+	display: block;
+}
+iframe,
+img {
+	max-width: 100%;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+	margin-top: 0;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+.site_container {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	min-height: 100%;
+	font-size: 14px;
+	font-family: 'roboto', 'arial', sans-serif;
+	font-weight: 300;
+	padding-bottom: 100px;
+}
+.inner_content {
+	width: 100%;
+	min-width: 960px;
+	max-width: 1280px;
+	margin: 0 auto;
+	position: relative;
+}
+.site_container section {
+	padding: 90px 0 100px;
+	position: relative;
+}
+// HERO BANNER 
+.hero_banner {
+	background: $black;
+	background: url('../images/hero_bg.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 200px 0 240px!important;
+    color: $white;
+    text-align: center;
+}
+.hero_banner a i {
+	padding: 15px;
+	background: #000;
+	border-radius: 50%;
+	position: absolute;
+	color: #fff;
+	bottom: -30px;
+	z-index: 11;
+	text-align: center;
+}
+// ABOUT 
+section.about {
+	background: $off_white;
+}
+
+.para {
+
+}
+.bg_01 {
+	background: url('../images/keyboard-bg.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 200px 0 200px;
+}
+
+// CONTACT 
+.contact {
+	background: $off_white;
+	text-align: center;
+}
+.contact a i {
+	padding: 15px;
+	background: #000;
+	border-radius: 50%;
+	position: absolute;
+	color: #fff;
+	top: -30px;
+	z-index: 11;
+	text-align: center;
+}
+@include respond-to(tablet) {
+	.inner_content {
+		min-width: 96%;
+		max-width: 96%;
+		padding: 0 2%;
+	}
+}
+
+@include respond-to(mobile) {
+	.inner_content {
+		min-width: 96%;
+		max-width: 96%;
+		padding: 0 2%;
+	}
+	.show_mobile {
+		display: block;
+	}
+
+	.show_desktop {
+		display: none;
+	}
+}

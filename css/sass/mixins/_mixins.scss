@@ -37,20 +37,16 @@
 
 
 // vars for fonts used on site
-$font_title_copy: ;
-$font_body_copy: Arial, sans-serif;
-$font_button_copy:  Arial, sans-serif;
-$font_menu_copy:  Arial, sans-serif;
+// $font_title_copy: ;
+// $font_body_copy: Arial, sans-serif;
+// $font_button_copy:  Arial, sans-serif;
+// $font_menu_copy:  Arial, sans-serif;
 
 @mixin font_title_copy {
-  font-family: $font_title_copy;
-  font-weight: normal;
-  font-style: normal;
+
 }
 @mixin font_body_copy {
-  $font_body_copy: Arial, sans-serif;
-  font-size: 13px;
-  line-height: 20px;
+
 }
 @mixin font_menu_copy {
   
