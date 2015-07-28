@@ -84,6 +84,7 @@ h5 {
 .site_container section {
 	padding: 90px 0 100px;
 	position: relative;
+	overflow: hidden;
 }
 // HERO BANNER 
 .hero_banner {
@@ -111,6 +112,16 @@ h5 {
 section.about {
 	background: $off_white;
 }
+.about article {
+	float: left;
+	display: block;
+	width: 40%;
+	padding: 10px 5%;
+}
+.about img {
+	float: right;
+	width: 50%;
+}
 
 .para {
 
@@ -125,6 +136,9 @@ section.about {
     padding: 200px 0 200px;
 }
 // WORK 
+	.work {
+		overflow: hidden;
+	}
 	.grid {
 		position: relative;
 		margin: 0 auto;
