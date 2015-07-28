@@ -37,20 +37,21 @@
 
 
 // vars for fonts used on site
-$font_title_copy: ;
-$font_body_copy: Arial, sans-serif;
+$font_title_copy:  AvantGardeGothicITCW01Bd, Arial, sans-serif;
+$font_body_copy: 'Roboto', 'sans-serif', Arial, helvetica, 'times new roman';
 $font_button_copy:  Arial, sans-serif;
 $font_menu_copy:  Arial, sans-serif;
 
+@mixin transition {
+  -webkit-transition: 2s all;
+    transition: 2s all;
+}
 @mixin font_title_copy {
-  font-family: $font_title_copy;
-  font-weight: normal;
-  font-style: normal;
+
 }
 @mixin font_body_copy {
-  $font_body_copy: Arial, sans-serif;
-  font-size: 13px;
-  line-height: 20px;
+  font-weight: 300;
+  font-family: $font_body_copy;
 }
 @mixin font_menu_copy {
   
@@ -64,5 +65,8 @@ $font_menu_copy:  Arial, sans-serif;
 @mixin button_link_style {
   
 }
-
+@mixin transition {
+  -webkit-transition: 0.2s all; /* Safari */
+  transition: 0.2s all;
+}
 
