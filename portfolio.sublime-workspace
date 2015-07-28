@@ -1,0 +1,501 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"tr",
+				"transparent"
+			],
+			[
+				"so",
+				"site_footer"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"si",
+				"site_nav"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Chris/Desktop/portfolio/builtbychris"
+	],
+	"file_history":
+	[
+		"/Users/Chris/Desktop/work/albe/css/sass/partials/_framework.scss",
+		"/Users/Chris/Desktop/work/albe/index.html",
+		"/Applications/MAMP/htdocs/albemarle/wp-config.php",
+		"/Users/Chris/Desktop/work/albe/js/main.js",
+		"/Applications/MAMP/htdocs/alice/alice_hart/css/sass/alice.scss",
+		"/Applications/MAMP/htdocs/alice/alice_hart/css/sass/partials/_insta.scss",
+		"/Applications/MAMP/htdocs/alice/alice_hart/css/sass/partials/_header.scss",
+		"/Applications/MAMP/htdocs/alice/alice_hart/index.html",
+		"/Applications/MAMP/htdocs/alice/alice_hart/js/main.js",
+		"/Applications/MAMP/htdocs/alice/alice_hart/css/sass/partials/insta.scss",
+		"/Applications/MAMP/htdocs/alice/alice_hart/js/insta.js",
+		"/Applications/MAMP/htdocs/builtbychris/css/sass/partials/_work.scss",
+		"/Applications/MAMP/htdocs/builtbychris/index.php",
+		"/Applications/MAMP/htdocs/builtbychris/index.html",
+		"/Users/Chris/Desktop/builtbychris/v3/css/sass/partials/_work.scss",
+		"/Users/Chris/Desktop/builtbychris/v3/css/sass/mixins/_mixins.scss",
+		"/Users/Chris/Desktop/builtbychris/v3/css/sass/partials/_tablet.scss",
+		"/Users/Chris/Desktop/builtbychris/v3/css/sass/partials/_mobile.scss",
+		"/Users/Chris/Desktop/builtbychris/v3/css/sass/partials/_loading_bar.scss",
+		"/Users/Chris/Desktop/builtbychris/v3/css/sass/partials/_header.scss",
+		"/Users/Chris/Desktop/builtbychris/v3/css/sass/partials/_framework.scss",
+		"/Users/Chris/Desktop/builtbychris/v3/css/sass/partials/_contact.scss",
+		"/Users/Chris/Desktop/builtbychris/v3/css/sass/partials/_footer.scss",
+		"/Users/Chris/Desktop/builtbychris/v3/css/sass/partials/_case_study.scss",
+		"/Users/Chris/Desktop/builtbychris/v3/css/sass/partials/_about.scss",
+		"/Users/Chris/Desktop/builtbychris/v3/css/sass/partials/_animate.scss",
+		"/Users/Chris/Desktop/builtbychris/v3/index.php",
+		"/Users/Chris/Desktop/builtbychris/v3/index.html",
+		"/Users/Chris/Desktop/builtbychris/v3/js/contact.js",
+		"/Users/Chris/Desktop/builtbychris/v3/js/main.js",
+		"/Users/Chris/Desktop/builtbychris/v3/js/jquery.waypoints.min.js",
+		"/Users/Chris/Desktop/builtbychris/v3/js/jquery.js",
+		"/Users/Chris/Desktop/builtbychris/v3/js/jquery.bxslider.min.js",
+		"/Users/Chris/Desktop/builtbychris/v3/js/imagesloaded.js",
+		"/Users/Chris/Desktop/builtbychris/v3/js/classie.js",
+		"/Users/Chris/Desktop/builtbychris/v3/js/AnimOnScroll.js",
+		"/Users/Chris/Desktop/builtbychris/v3/Good-agency.html",
+		"/Users/Chris/Desktop/builtbychris/v3/js/masonry.pkgd.min.js",
+		"/Users/Chris/Desktop/builtbychris/v3/js/modernizr-2.6.2.min.js",
+		"/Users/Chris/Desktop/builtbychris/v3/work_template.html",
+		"/Users/Chris/Desktop/builtbychris/v3/Undierun.html",
+		"/Users/Chris/Desktop/builtbychris/v3/The-hart-and-fuggle.html",
+		"/Users/Chris/Desktop/builtbychris/v3/Pip-mccormac.html",
+		"/Users/Chris/Desktop/builtbychris/v3/Mercy-ships.html",
+		"/Users/Chris/Desktop/builtbychris/v3/H2only.html",
+		"/Users/Chris/Desktop/builtbychris/v3/Great-plains.html",
+		"/Users/Chris/Desktop/builtbychris/v3/french-connection.html",
+		"/Users/Chris/Desktop/builtbychris/v3/Alice-hart.html",
+		"/Users/Chris/Desktop/builtbychris/v3/wwf.html",
+		"/Users/Chris/Desktop/builtbychris/v3/css/sass/mixins/_colour_palette.scss",
+		"/Users/Chris/Desktop/builtbychris/v3/css/.sass-cache/d15ddce74ac5380efa66a04f107da591c867ddc5/_colour_palette.scssc",
+		"/Users/Chris/Desktop/builtbychris/v3/case-study.html",
+		"/Users/Chris/Desktop/builtbychris/v3/css/.sass-cache/ba022ef3ec0819b2358efe3053627abd242998e0/_work.scssc",
+		"/Users/Chris/Desktop/builtbychris/v3/css/.sass-cache/3e99511f067f2770191cc15ac39bcbd8f51a3874/_work.scssc",
+		"/Users/Chris/Desktop/builtbychris/v3/fonts/fontawesome-webfont.svg",
+		"/Users/Chris/Desktop/builtbychris/v3/css/.sass-cache/ba022ef3ec0819b2358efe3053627abd242998e0/_case_study.scssc",
+		"/Users/Chris/Desktop/builtbychris/v3/css/.sass-cache/3e99511f067f2770191cc15ac39bcbd8f51a3874/_case_study.scssc",
+		"/Users/Chris/Desktop/builtbychris/images/old/case_arrow.svg",
+		"/Users/Chris/Desktop/builtbychris/images/case_arrow.svg",
+		"/Users/Chris/Desktop/builtbychris/v3/css/.sass-cache/ba022ef3ec0819b2358efe3053627abd242998e0/_header.scssc",
+		"/Users/Chris/Desktop/builtbychris/v3/css/.sass-cache/3e99511f067f2770191cc15ac39bcbd8f51a3874/_header.scssc",
+		"/Users/Chris/Desktop/builtbychris/v3/css/.sass-cache/ba022ef3ec0819b2358efe3053627abd242998e0/_contact.scssc",
+		"/Users/Chris/Desktop/builtbychris/v3/css/.sass-cache/3e99511f067f2770191cc15ac39bcbd8f51a3874/_contact.scssc",
+		"/Users/Chris/Desktop/builtbychris/v3/css/config.rb",
+		"/Users/Chris/Desktop/builtbychris/v3/css/.sass-cache/17d03613c125918cd0766f51918feb21dc3c074a/_transform.scssc",
+		"/Users/Chris/Desktop/builtbychris/v3/font-awesome-4.3.0/less/rotated-flipped.less",
+		"/Users/Chris/Desktop/builtbychris/v3/css/.sass-cache/ba022ef3ec0819b2358efe3053627abd242998e0/_about.scssc",
+		"/Users/Chris/Desktop/builtbychris/v3/css/.sass-cache/3e99511f067f2770191cc15ac39bcbd8f51a3874/_about.scssc",
+		"/Users/Chris/Desktop/builtbychris/v3/font-awesome-4.3.0/less/animated.less",
+		"/Users/Chris/Desktop/builtbychris/v3/css/.sass-cache/ba022ef3ec0819b2358efe3053627abd242998e0/_framework.scssc",
+		"/Users/Chris/Desktop/builtbychris/v3/css/.sass-cache/3e99511f067f2770191cc15ac39bcbd8f51a3874/_framework.scssc",
+		"/Users/Chris/Desktop/builtbychris/v3/css/.sass-cache/ba022ef3ec0819b2358efe3053627abd242998e0/_footer.scssc",
+		"/Users/Chris/Desktop/builtbychris/v3/css/.sass-cache/3e99511f067f2770191cc15ac39bcbd8f51a3874/_footer.scssc",
+		"/Users/Chris/Desktop/builtbychris/v3/font-awesome-4.3.0/less/variables.less",
+		"/Users/Chris/Desktop/portfolio/index.html",
+		"/Users/Chris/Desktop/portfolio/js/main.js",
+		"/Users/Chris/Desktop/portfolio/js/jquery.min.js",
+		"/Users/Chris/Desktop/portfolio/css/sass/main.scss",
+		"/Users/Chris/Desktop/portfolio/css/sass/partials/_about.scss",
+		"/Users/Chris/Desktop/portfolio/css/sass/partials/_font.scss",
+		"/Users/Chris/Desktop/portfolio/css/sass/partials/_header.scss",
+		"/Users/Chris/Desktop/portfolio/css/sass/partials/_framework.scss",
+		"/Users/Chris/Desktop/portfolio/css/sass/partials/_skills.scss",
+		"/Users/Chris/Desktop/portfolio/css/sass/partials/_project_grid.scss",
+		"/Users/Chris/Desktop/portfolio/css/.sass-cache/c8ee174639810031ed3c37aba354e85c73e6a9d7/_about.scssc",
+		"/Users/Chris/Desktop/portfolio/css/main.css",
+		"/Users/Chris/Desktop/portfolio/css/.sass-cache/c8ee174639810031ed3c37aba354e85c73e6a9d7/_framework.scssc",
+		"/Users/Chris/Desktop/portfolio/css/.sass-cache/41f389dd41d2f50d087ce2dd618ac554fa167707/_framework.scssc",
+		"/Users/Chris/Desktop/portfolio/css/.sass-cache/c8ee174639810031ed3c37aba354e85c73e6a9d7/_header.scssc",
+		"/Users/Chris/Desktop/portfolio/css/.sass-cache/41f389dd41d2f50d087ce2dd618ac554fa167707/_header.scssc",
+		"/Users/Chris/Desktop/portfolio/css/.sass-cache/c8ee174639810031ed3c37aba354e85c73e6a9d7/_font.scssc",
+		"/Users/Chris/Desktop/portfolio/css/.sass-cache/41f389dd41d2f50d087ce2dd618ac554fa167707/_font.scssc",
+		"/Users/Chris/Documents/work/builtbychris/japow.html",
+		"/Users/Chris/Documents/wp-config.php",
+		"/Users/Chris/Desktop/email_sig.html",
+		"/Users/Chris/Documents/work/psi/templates/head.php",
+		"/Users/Chris/Documents/work/psi/index.php",
+		"/Users/Chris/Documents/work/builtbychris/case-studies/alice-hart.html",
+		"/Users/Chris/Documents/work/builtbychris/images/alice/old/alice_hero",
+		"/Users/Chris/Documents/work/builtbychris/case-studies/the-hart-and-fuggle.html",
+		"/Users/Chris/Documents/work/builtbychris/index.html",
+		"/Users/Chris/Documents/work/builtbychris/css/master.css",
+		"/Users/Chris/Desktop/index.html",
+		"/Users/Chris/Documents/work/builtbychris/contact.php",
+		"/Users/Chris/Documents/work/builtbychris/portfolio.html",
+		"/Users/Chris/Documents/work/builtbychris/cv.html"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"cms",
+			"integration",
+			"<!-- <p>Lorem sits in the corner the whole day. She's into crochet.</p> -->",
+			"assunto",
+			"mensagem",
+			"Mensagem",
+			"mensagem",
+			"Contato",
+			"form_item",
+			"Telefone",
+			"Nome",
+			"our message has been sent!",
+			"your messa",
+			"Mensagem",
+			"fc/",
+			"fc",
+			"h1",
+			"alt=\"\"",
+			"lt=\"\"",
+			"nav.site_nav ul.social_buttons",
+			"article.hero_banner",
+			"width 2s;",
+			"alice",
+			"Alice",
+			"alice",
+			"style=\"background: #fff;\"",
+			"h2only",
+			"undierun",
+			"mercy",
+			"c/fc",
+			"transparent",
+			"figure.hover_effect:hover figcaption",
+			"fff",
+			"%;\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "portfolio.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"in",
+				"index.html"
+			],
+			[
+				"frame",
+				"css/sass/partials/_framework.scss"
+			],
+			[
+				"main",
+				"alice_hart/js/main.js"
+			],
+			[
+				"ins",
+				"alice_hart/css/sass/partials/_insta.scss"
+			],
+			[
+				"inde",
+				"alice_hart/index.html"
+			],
+			[
+				"alice.scs",
+				"alice_hart/css/sass/alice.scss"
+			],
+			[
+				"head",
+				"alice_hart/css/sass/partials/_header.scss"
+			],
+			[
+				"work",
+				"builtbychris/css/sass/partials/_work.scss"
+			],
+			[
+				"index",
+				"builtbychris/index.html"
+			],
+			[
+				"mixi",
+				"sass/mixins/_mixins.scss"
+			],
+			[
+				"conta",
+				"v3/css/sass/partials/_contact.scss"
+			],
+			[
+				"main.js",
+				"v3/js/main.js"
+			],
+			[
+				"work_",
+				"v3/work_template.html"
+			],
+			[
+				"header",
+				"v3/css/sass/partials/_header.scss"
+			],
+			[
+				"case",
+				"v3/css/sass/partials/_case_study.scss"
+			],
+			[
+				"index.html",
+				"v3/index.html"
+			],
+			[
+				"header.s",
+				"v3/css/sass/partials/_header.scss"
+			],
+			[
+				"work.",
+				"v3/css/sass/partials/_work.scss"
+			],
+			[
+				"cont",
+				"v3/css/sass/partials/_contact.scss"
+			],
+			[
+				"contact",
+				"v3/css/sass/partials/_contact.scss"
+			],
+			[
+				"index.",
+				"v3/index.html"
+			],
+			[
+				"header.",
+				"v3/css/sass/partials/_header.scss"
+			],
+			[
+				"mix",
+				"v3/css/sass/mixins/_mixins.scss"
+			],
+			[
+				"colour",
+				"v3/css/sass/mixins/_colour_palette.scss"
+			],
+			[
+				"wor",
+				"v3/css/sass/partials/_work.scss"
+			],
+			[
+				"abou",
+				"v3/css/sass/partials/_about.scss"
+			],
+			[
+				"color",
+				"v3/css/.sass-cache/d15ddce74ac5380efa66a04f107da591c867ddc5/_colour_palette.scssc"
+			],
+			[
+				"index.php",
+				"v3/index.php"
+			],
+			[
+				"templ",
+				"v3/work_template.html"
+			],
+			[
+				"french",
+				"v3/french-connection.html"
+			],
+			[
+				"frec",
+				"v3/french-connection.html"
+			],
+			[
+				"work.s",
+				"v3/css/sass/partials/_work.scss"
+			],
+			[
+				"about.s",
+				"v3/css/sass/partials/_about.scss"
+			],
+			[
+				"footer.s",
+				"v3/css/sass/partials/_footer.scss"
+			],
+			[
+				"about",
+				"css/sass/partials/_about.scss"
+			],
+			[
+				"frae",
+				"css/sass/partials/_framework.scss"
+			],
+			[
+				"font.scs",
+				"css/sass/partials/_font.scss"
+			],
+			[
+				"master",
+				"css/master.css"
+			],
+			[
+				"i",
+				"index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"p",
+				"~/Desktop/portfolio/portfolio.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
