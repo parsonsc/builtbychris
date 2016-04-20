@@ -1,0 +1,72 @@
+@import "compass/css3/opacity";
+@import "compass/css3/transition";
+@import "compass/css3/transform";
+@import "compass/css3/box-sizing";
+@import "compass/css3/box-shadow";
+@import "colour_palette";
+
+@mixin respond-to($media, $min:"", $max:"") {
+  @if $media == mobile {
+    @media only screen and (max-width: 500px) { @content; }
+  }
+  @else if $media == tablet {
+    @media only screen and (min-width: 501px) and (max-width: 800px) { @content; }
+  }
+  @else if $media == desktop {
+    @media only screen and (min-width: 801px) { @content; }
+  }
+  @else if $media == not-mobile {
+    @media only screen and (min-width: 601px) { @content; }
+  }
+  @else if $media == defined {
+
+    @if $min == 0 {
+      @media only screen and (max-width: $max) { @content; }
+    }
+
+    @else if $max == 0 {
+      @media only screen and (min-width: $min) { @content; }
+    }
+
+    @else {
+      @media only screen and (min-width: $min) and (max-width: $max) { @content; }
+    }
+
+  }
+}
+
+
+// vars for fonts used on site
+$font_title_copy:  AvantGardeGothicITCW01Bd, Arial, sans-serif;
+$font_body_copy: 'Roboto', 'sans-serif', Arial, helvetica, 'times new roman';
+$font_button_copy:  Arial, sans-serif;
+$font_menu_copy:  Arial, sans-serif;
+
+@mixin transition {
+  -webkit-transition: 2s all;
+    transition: 2s all;
+}
+@mixin font_title_copy {
+
+}
+@mixin font_body_copy {
+  font-weight: 300;
+  font-family: $font_body_copy;
+}
+@mixin font_menu_copy {
+  
+}
+
+
+@mixin button_submit_style {
+ 
+}
+
+@mixin button_link_style {
+  
+}
+@mixin transition {
+  -webkit-transition: 0.2s all; /* Safari */
+  transition: 0.2s all;
+}
+
