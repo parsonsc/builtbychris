@@ -8,18 +8,13 @@
 @import "mixins/_mixins";
 @import "mixins/_colour_palette";
 // GENERIC STYLESHEETS
-// @import "partials/_normalize";
+@import "partials/_normalize";
 
 @import "partials/_framework";
 @import "partials/_animate";
 @import "partials/_font_awesome";
-@import "partials/_modal";
 
-@import "partials/_preloader";
-@import "partials/_herobanner";
+
 @import "partials/_header";
-@import "partials/_about";
-@import "partials/_portfolio";
-@import "partials/_skills";
-@import "partials/_contact";
+
 @import "partials/_footer";
