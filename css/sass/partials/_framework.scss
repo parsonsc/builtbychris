@@ -2,7 +2,7 @@
 // FRAMEWORK STYLESHEET
 
 html, body{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size:15px;
   -webkit-font-smoothing: subpixel-antialiased!important;
   color:black;
@@ -26,11 +26,11 @@ h1{
 }
 
 p{
-  font-size:14px;
-  color:white;
+  // font-size:14px;
+  // color:white;
   font-weight:300;
   letter-spacing:1px;
-  margin-top:40px;
+  // margin-top:40px;
 }
 
 
@@ -100,26 +100,7 @@ h1 span{
   text-align:center;
 }
 
-.partners .logo{
-  position:relative;
-  width:900px;
-  overflow:hidden;
-  margin-top:50px;
-  text-align:center;
-}
 
-.partners .logo img{
-  opacity:0.5;
-  -webkit-transition: all 0.2s ease-in;
-  -moz-transition: all 0.2s ease-in;
-  -ms-transition: all 0.2s ease-in;
-  -o-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
-}
-
-.partners .logo img:hover{
-  opacity:1;
-}
 
 
 @include respond-to(tablet) {

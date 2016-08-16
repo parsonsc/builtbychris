@@ -151,6 +151,51 @@
     clear:both; 
 }
 
+
+// Case Studies styling
+.work_content header {
+  background: white;
+  color: black;
+  padding: 175px 0;
+  font-size: 20px;
+}
+.work_content header h1 {
+  color: black;
+  display: block;
+  float: left;
+  width: 25%;
+}
+.work_content header p.bio_title {
+  color: black;
+  text-transform: uppercase;
+  margin: 10px 0;
+  font-weight: 400;
+}
+.work_bio {
+  float: left;
+  width: 71%;
+  display: block;
+  padding: 0 2%;
+}
+.work_role,
+.site_link {
+  width: 50%;
+  display: block;
+  float: left;
+  padding: 40px 0;
+  font-size: 16px;
+  p {
+    font-weight: 400;
+  }
+  
+}
+.site_link a {
+  font-size: 16px;
+  color: black;
+  font-weight: 400;
+}
+
+
 @include respond-to(tablet) {
 
 }

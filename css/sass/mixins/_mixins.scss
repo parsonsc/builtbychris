@@ -37,11 +37,11 @@
 
 
 // vars for fonts used on site
-$font_title_copy:  AvantGardeGothicITCW01Bd, Arial, sans-serif;
-$font_body_copy: 'Roboto', 'sans-serif', Arial, helvetica, 'times new roman';
-$font_button_copy:  Arial, sans-serif;
-$font_menu_copy:  Arial, sans-serif;
-
+$font_title_copy:  'Open Sans', AvantGardeGothicITCW01Bd, Arial, sans-serif;
+$font_body_copy: 'Open Sans', 'sans-serif', Arial, helvetica, 'times new roman';
+$font_button_copy:  'Open Sans', sans-serif;
+$font_menu_copy:  'Open Sans', sans-serif;
+// font-family: 'Open Sans', sans-serif;
 @mixin transition {
   -webkit-transition: 2s all;
     transition: 2s all;
