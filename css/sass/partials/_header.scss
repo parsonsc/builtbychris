@@ -2,9 +2,56 @@
 // HEADER STYLESHEET
 
 header.site_header {
-
+	padding: 30px 0;
+	@include transition(all 0.4s ease-in-out);
+	overflow: hidden;
+	text-transform: uppercase;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+    background-color: transparent;
+}
+header.site_header.active_bg {
+	background-color: white;
+	@include transition(all 0.4s ease-in-out);
+	padding: 5px 0;
+	a {
+		color: black!important;
+	}
+}
+// header.site_header.nav-up {
+//     top: -80px;
+// }
+header.site_header .site_logo {
+	display: block;
+	float: left;
+	width: 300px;
+	padding: 10px 0;
+	font-size: 26px;
+}
+header.site_header .site_logo a {
+	color: $white;
 }
 
+// Site logo
+header.site_header nav.site_nav {
+	display: block;
+	float: right;
+	overflow: hidden;
+}
+header.site_header nav.site_nav ul {
+
+}
+header.site_header nav.site_nav ul li {
+	display: inline-block;
+	margin: 0 20px;
+}
+header.site_header nav.site_nav ul li a {
+	display: block;
+	padding: 10px 10px;
+	color: $white;
+}
 
 @include respond-to(tablet) {
 
