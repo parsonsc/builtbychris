@@ -56,7 +56,28 @@ h2 {
 .main_content {
 
 }
-
+a.to-top {
+    background-color: #524F51;
+    outline: none !important;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 100px;
+    right: 40px;
+    z-index: 1000;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    color: #ccc;
+    text-align: center;
+    line-height: 38px;
+    font-size: 13px;
+    @include transition(all 0.4s ease-in-out);
+    display: none;
+}
+a.to-top.active {
+	display: block;
+	@include transition(all 0.4s ease-in-out);
+}
 
 @include respond-to(tablet) {
 	// Site container
@@ -64,8 +85,9 @@ h2 {
 		min-width: 100%;
 	}
 	.site_container .inner_content {
-		max-width: 100%;
-		min-width: 100%;
+		max-width: 96%;
+		min-width: 96%;
+		padding: 0 2%;
 	}
 }
 
@@ -75,8 +97,9 @@ h2 {
 		min-width: 100%;
 	}
 	.site_container .inner_content {
-		max-width: 100%;
-		min-width: 100%;
+		max-width: 92%;
+		min-width: 92%;
+		padding: 0 4%;
 	}
 }
 

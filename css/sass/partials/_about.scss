@@ -16,7 +16,7 @@ section.about .about_intro {
 }
 section.about .about_intro p {
 	letter-spacing: 0.3px;
-	line-height: 1.3;
+	line-height: 1.4;
 	font-size: 18px;
 }
 
@@ -109,30 +109,49 @@ section.about .about_intro p {
 		font-size: 46px;
 	}
 	.coding_info .coding_content article:first-child i{
-		margin-right: -14px;
+		margin-right: -10px;
 	}
-
-
 	.timer {
-		width:200px; 
-		margin:20px auto;
-		text-align:center;
-		display:block;
-		font-size:20px; 
-		font-size:4rem;
+		width:100%; 
+		font-size:40px; 
 	}
-	.coding_info .coding_content article .finish-text {
-	    visibility: hidden;
-	    padding-top: 15px;
-	    font-size: 16px;
-	    position: relative;
-	    @include transition(all 0.4s ease-in-out);
 
-	}
 
 
 }
 @include respond-to(mobile) {
+	section.about {
+		padding: 60px 0;
+	}
+	section.about .about_intro {
+		padding: 0 10px 35px;
+	}
+	section.about .about_intro p {
+		line-height: 1.2;
+		letter-spacing: 0.2px;
+		font-size: 16px;
+	}
 
+
+	// Coding info
+	.coding_info {
+		padding: 50px 0;	
+	}
+	.coding_info .coding_content {
+		width: 100%;
+	}
+	.coding_info .coding_content article {
+		width: 50%;
+	}
+	.coding_info .coding_content article i {
+		font-size: 46px;
+	}
+	.coding_info .coding_content article:first-child i{
+		margin-right: -8px;
+	}
+	.timer {
+		width:100%; 
+		font-size:40px; 
+	}
 
 }
