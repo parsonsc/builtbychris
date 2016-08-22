@@ -52,21 +52,7 @@ onScrollInit( $('.os-animation') );
 onScrollInit( $('.staggered-animation'), $('.staggered-animation-container'));
 
 
-// Smooth scroll - Click anchor tag to smoothly scroll you to the relavant section
-$(function() {
-    $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top - 0
-        }, 1200);
-        return false;
-      }
-    }
-    });
-});
+
 
 $(document).ready(function(){
   $('.skillbar').each(function(){
@@ -181,6 +167,7 @@ $(function($) {
 
 
 
+// Smooth scroll - Click anchor tag to smoothly scroll you to the relavant section
 $(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
