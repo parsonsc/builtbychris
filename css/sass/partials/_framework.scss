@@ -33,6 +33,12 @@ h1 {
 h2 {
 	font-size: 32px;
 }
+.os-animation{
+  opacity: 0;
+}
+.os-animation.animated{
+    opacity: 1;
+}
 
 // Site container
 .site_container {
