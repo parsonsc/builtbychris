@@ -26,12 +26,16 @@ h1,h2,h3,h4,h5 {
 	font-weight: 300;
 	margin-top: 0;
 	letter-spacing: 0.8px;
+	line-height: 1.7;
 }
 h1 {
 	font-size: 38px;
 }
 h2 {
 	font-size: 32px;
+	font-weight: bold;
+    text-transform: none;
+    letter-spacing: -2px;
 }
 .os-animation{
   opacity: 0;
@@ -43,7 +47,7 @@ h2 {
 // Site container
 .site_container {
 	position: relative;
-
+	color: $font_black;
 	min-height: 100%;
 	display: block;
 	width: 100%;

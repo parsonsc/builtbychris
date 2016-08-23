@@ -12,6 +12,9 @@ header.site_header {
     z-index: 9;
     background-color: transparent;
 }
+header.site_header.black_nav a {
+	color: $font_black!important;
+}
 header.site_header.active_bg {
 	background-color: white;
 	@include transition(all 0.4s ease-in-out);

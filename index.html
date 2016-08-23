@@ -254,7 +254,48 @@
 
 			<section class="contact" id="contact">
 				<div class="inner_content">
-					
+					<header class="contact_header">
+						<h2>I'd love to hear from you</h2>
+						<p>If you have any questions about our products or services, our team is ready to answer any of your questions.So feel free to get in touch with us.</p>
+					</header>
+					<article class="contact_block location">
+						<img src="images/homepage/contact.jpg" alt="" width="100%">
+						<p>London based</p>
+						<p><a href="mailto:hello@builtbychris.com">hello@builtbychris.com</a></p>
+						<p>07966168119</p>
+					</article>
+
+					<article class="contact_block form">
+						
+						<form id="contactForm" action="email.php" Method="POST" class="contact_form" novalidate="novalidate">
+							<div class="form_item">
+								<label for="">Name</label>
+								<input type="text">
+							</div>
+
+							<div class="form_item">
+								<label for="">Email</label>
+								<input type="text">
+							</div>
+
+							<div class="form_item">
+								<label for="">Phone</label>
+								<input type="text">
+							</div>
+
+							<div class="form_item">
+								<label for="">Message</label>
+								<input type="textarea">
+							</div>
+							
+							<div class="submit_cta">
+														    <button type="submit">Send</button>
+							</div>
+						</form>
+
+
+
+					</article>
 				</div>
 			</section>
 		</div>
@@ -265,7 +306,19 @@
 		<!-- Footer -->
 		<footer class="site_footer">
 			<div class="inner_content">
-				
+				<nav class="footer_nav">
+					<ul class="copyright">
+						<li>&copy; 2016 Chris Parsons</li>
+					</ul>
+
+					<ul class="social">
+						<li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+						<li><a href=""><i class="fa fa-github" aria-hidden="true"></i></a></li>
+						<li><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+						<li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						<!-- <li><a href=""><img src="images/layout/juno.png" alt=""></a></li> -->
+					</ul>
+				</nav>
 			</div>
 		</footer>
 		<div class="clearfix"></div>
@@ -278,6 +331,40 @@
 	<script src="js/jquery-2.1.4.js"></script>
 	<script src="js/plugins.js"></script>
 	<script src="js/main.js"></script>
+	<script>
+	     $("#contactForm").submit(function(event) 
+	     {
+	         /* stop form from submitting normally */
+	         event.preventDefault();
+
+	         /* get some values from elements on the page: */
+	         var $form = $( this ),
+	             $submit = $form.find( 'button[type="submit"]' ),
+	             name_value = $form.find( 'input[name="name"]' ).val(),
+	             email_value = $form.find( 'input[name="email"]' ).val(),
+	             message_value = $form.find( 'textarea[name="message"]' ).val(),
+	             url = $form.attr('action');
+
+	         /* Send the data using post */
+	         var posting = $.post( url, { 
+	                           name: name_value, 
+	                           email: email_value, 
+	                           message: message_value 
+	                       });
+
+	         posting.done(function( data )
+	         {
+	             /* Put the results in a div */
+	             $( "#contactResponse" ).html(data);
+
+	             /* Change the button text. */
+	             $submit.text('Sent, Thank you');
+
+	             /* Disable the button. */
+	             $submit.attr("disabled", true);
+	         });
+	    });
+	</script>
 
 </body>
 </html>

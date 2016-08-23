@@ -185,5 +185,19 @@ $(function() {
 });
 
 
+$(document).ready(function(){
+  $('.bxslider').bxSlider({
+    auto: true,
+    pager: false,
+    autoHover: true,
+    speed: 1000,
+    delay: 10000
+  });
+});
 
 
+
+
+// var sticky = new Waypoint.Sticky({
+//   element: $('.website_data')[0]
+// })
