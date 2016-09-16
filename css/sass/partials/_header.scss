@@ -74,7 +74,7 @@ header.site_header nav.site_nav ul li a {
 	height:20px;
 	position:relative;
 	display:block;
-	float:right;
+	float: right;
 
 	// border: 1px solid black;
 }
@@ -83,7 +83,7 @@ header.site_header nav.site_nav ul li a {
 }
 .mobile_menu .line {
 	display:block;
-	background: black;
+	background: $font_black;
 	width:30px;
 	height:5px;
 	position:absolute;

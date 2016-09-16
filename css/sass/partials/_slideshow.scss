@@ -239,10 +239,24 @@ section.slideshow header.slideshow_header h2 {
 }
 
 
+@include respond-to(tablet) {
+	
+
+}
 
 
+@include respond-to(mobile) {
+	section.slideshow header.slideshow_header {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	section.slideshow header.slideshow_header h1 {
+		line-height: 1.3;
+		font-size: 44px;
+	}
 
 
+}
 
 
 

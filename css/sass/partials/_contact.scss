@@ -9,7 +9,6 @@ section.contact {
     width: 100%;
     padding: 35px 0 35px;
     margin: 0 auto;
-    background-color: #f5f5f5;
     text-align: center;
 }
 section.contact header {
@@ -65,5 +64,40 @@ form.contact_form .form_item {
 }
 
 @include respond-to(mobile) {
-	
+
+	section.contact header h2 {
+		font-size: 32px;
+	}
+	section.contact header p {
+		width: 80%;
+	}
+
+
+	section.contact article.contact_block {
+		width: 100%;
+		padding: 0 0%;
+		text-align: left;
+	}
+	section.contact article.contact_block.location {
+		font-size: 14px;
+		font-weight: 400;
+	    color: rgba(80,80,80,0.8);
+	}
+	section.contact article.contact_block.location p {
+		margin-bottom: 0;
+	}
+	section.contact article.contact_block.location p a {
+		color: rgba(80,80,80,0.8);
+	}
+
+	form.contact_form input,
+	form.contact_form textarea,
+	form.contact_form button  {
+		box-shadow: 0;
+		outline: 0;
+	}
+	form.contact_form .form_item {
+		display: block;
+		padding: 10px 0;
+	}
 }
