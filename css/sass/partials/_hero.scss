@@ -39,14 +39,14 @@ section.hero_banner {
 	letter-spacing: 0.8px;
 	font-size: 38px;
 }
-.hero_content h1:after {
-	content: "";
-	width: 60px;
-	height: 3px;
-	background: white;
-	display: block;
-	margin: 25px auto 5px;
-}
+// .hero_content h1:after {
+// 	content: "";
+// 	width: 60px;
+// 	height: 3px;
+// 	background: white;
+// 	display: block;
+// 	margin: 25px auto 5px;
+// }
 .hero_content h1 br {
 	display: none;
 }
@@ -64,7 +64,15 @@ section.hero_banner {
 	color: white;
 	// display: none;
 }
-
+a.slide_down {
+	font-size: 60px;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    left: 0;
+    text-align: center;
+}
 @include respond-to(tablet) {
 	section.hero_banner {
 		height: 65vh;

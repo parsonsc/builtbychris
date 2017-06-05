@@ -3,7 +3,7 @@
 
 
 section.about {
-	padding: 120px 0;
+	padding: 120px 0 0;
 	position: relative;
 	overflow: hidden;
 	text-align: center;
@@ -121,7 +121,7 @@ section.about .about_intro p {
 }
 @include respond-to(mobile) {
 	section.about {
-		padding: 60px 0;
+		padding: 60px 0 0;
 	}
 	section.about .about_intro {
 		padding: 0 10px 35px;

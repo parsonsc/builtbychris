@@ -115,7 +115,7 @@ $(document).ready(function(){
 $(function($) {
     $('.timer1').delay(400).countTo({
         from: 0,
-        to: 185,
+        to: 1805,
         decimals: 0,
         speed: 1000,
         refreshInterval: 2,
@@ -128,7 +128,7 @@ $(function($) {
 
     $('.timer2').delay(400).countTo({
         from: 0,
-        to: 234,
+        to: 150,
         decimals: 0,
         speed: 1300,
         refreshInterval: 2,
@@ -141,7 +141,7 @@ $(function($) {
 
     $('.timer3').delay(400).countTo({
         from: 0,
-        to: 546,
+        to: 5546,
         decimals: 0,
         speed: 1600,
         refreshInterval: 2,
@@ -154,7 +154,7 @@ $(function($) {
 
     $('.timer4').delay(400).countTo({
         from: 0,
-        to: 200,
+        to: 30,
         decimals: 0,
         speed: 1900,
         refreshInterval: 2,
