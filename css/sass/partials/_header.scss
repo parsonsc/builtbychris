@@ -1,161 +1,18 @@
-// BUILTBYCHRIS.COM
-// HEADER STYLESHEET
+// BUILTBYCHRIS
+// HEADER STYLES
+
 
 header.site_header {
-	padding: 30px 0;
-	@include transition(all 0.4s ease-in-out);
 	overflow: hidden;
-	text-transform: uppercase;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 9;
-    background-color: transparent;
-}
-header.site_header.black_nav a {
-	color: $font_black!important;
-}
-header.site_header.active_bg {
-	background-color: white;
-	@include transition(all 0.4s ease-in-out);
-	padding: 5px 0;
-	-webkit-box-shadow: 0px 3px 5px 0 rgba(0,0,0,0.10);
-	-moz-box-shadow: 0px 3px 5px 0 rgba(0,0,0,0.10);
-	box-shadow: 0px 3px 5px 0 rgba(0,0,0,0.10);
-	a {
-		color: black!important;
-	}
-}
-// header.site_header.nav-up {
-//     top: -80px;
-// }
-header.site_header .site_logo {
-	display: block;
-	float: left;
-	width: 300px;
-	padding: 10px 0;
-	font-size: 26px;
-}
-header.site_header .site_logo a {
-	color: $white;
-}
+	padding: 35px 0;
+	background: $white;
+	border-bottom: 1px solid black;
 
-// Site logo
-header.site_header nav.site_nav {
-	display: block;
-	float: right;
-	overflow: hidden;
-}
-header.site_header nav.site_nav ul {
+
+
+
 
 }
-header.site_header nav.site_nav ul li {
-	display: inline-block;
-	margin: 0 20px;
-}
-header.site_header nav.site_nav ul li a {
-	display: block;
-	padding: 10px 10px;
-	color: $white;
-}
 
-// MOBILE MENU BUTTON
-.mobile_button_container {
-	position: absolute;
-	width: 42px;
-	height: 37px;
-	overflow: hidden;
-	right: 4%;
-	top: 25px;
-	display: none;
-}
-.mobile_menu {
-	width:30px;
-	height:20px;
-	position:relative;
-	display:block;
-	float: right;
 
-	// border: 1px solid black;
-}
-.menu_bars {
-	margin: 10px;
-}
-.mobile_menu .line {
-	display:block;
-	background: $font_black;
-	width:30px;
-	height:5px;
-	position:absolute;
-	left:0;
-	transition:all 0.4s;
-	-webkit-transition:all 0.4s;
-	-moz-transition:all 0.4s
-}
-/*HAMBURGER LINES*/
-.mobile_menu .line.line-1 {top:0;}
-.mobile_menu .line.line-2 {top:50%;}
-.mobile_menu .line.line-3 {top:100%;}
-.mobile_menu.active .line-1 {
-	transform:translateY(10px) translateX(0) rotate(45deg);
-	-webkit-transform:translateY(10px) translateX(0) rotate(45deg);
-	-moz-transform:translateY(10px) translateX(0) rotate(45deg);
-}
-.mobile_menu.active .line-2 {opacity:0}
-.mobile_menu.active .line-3 {
-	transform:translateY(-10px) translateX(0) rotate(-45deg);
-	-webkit-transform:translateY(-10px) translateX(0) rotate(-45deg);
-	-moz-transform:translateY(-10px) translateX(0) rotate(-45deg);
-}
-// END MOBILE MENU BUTTON
-
-@include respond-to(tablet) {
-	.mobile_button_container {
-		display: none;
-	}
-	header.site_header nav.site_nav ul li a {
-		padding: 15px 10px;
-	}
-
-}
-@include respond-to(mobile) {
-	header.site_header {
-		padding: 15px 0;
-	    position: relative;
-	    background-color: white;
-	    color: black!important;
-	}	
-	header.site_header.active_bg {
-		padding: 30px 0;
-	}
-
-	header.site_header .site_logo {
-		width: 80%;
-	}
-	header.site_header .site_logo a {
-		color: $black;
-	}
-
-	// Site logo
-	header.site_header nav.site_nav {
-		float: none;
-		clear: both;
-		width: 100%;
-	}
-	header.site_header nav.site_nav ul {
-		width: 100%;
-		text-align: center;
-		padding: 10px 0 0;
-		display: none;
-	}
-	header.site_header nav.site_nav ul li {
-		display: inline-block;
-		margin: 0 0;
-		width: 100%;
-	}
-	header.site_header nav.site_nav ul li a {
-		padding: 20px 0;
-		color: $black;
-	}
-
-}
+// Site nav

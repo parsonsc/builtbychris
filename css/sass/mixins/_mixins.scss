@@ -40,12 +40,3 @@
 // vars for fonts used on site
 
 
-@mixin title_underline {
-  content: "";
-  display: block;
-  height: 2px;
-  width: 60px;
-  background: #000000;
-  background: rgba(0, 0, 0, 0.2);
-  margin: 65px auto;
-}

@@ -1,0 +1,153 @@
+header.hero {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+header.hero.do-passpature .passpature {
+    -webkit-animation: passpature 2.51s forwards;
+    animation: passpature 2.51s forwards;
+}
+
+header.hero .passpature {
+    z-index: 99997;
+    right: 0;
+    bottom: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 0 solid #FFF;
+    -webkit-transition: border .6s ease-in-out;
+    transition: border .6s ease-in-out;
+}
+
+header.hero .hero-wrapper, header.hero .passpature {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    left: 0;
+}
+
+.spacer-pink, header.hero .hero-background {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header.hero .hero-background {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+header.hero .hero-wrapper, header.hero .passpature {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    left: 0;
+}
+
+header.hero .hero-wrapper {
+    display: table;
+    z-index: 999999;
+}
+
+header.hero .hero-wrapper .hero-content {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+
+header.hero .hero-wrapper .hero-content .hero-content-container {
+    width: 1210px;
+}
+
+header.hero .hero-wrapper .hero-content .hero-content-container {
+    margin: 0 auto;
+}
+
+
+
+form.start-a-project header.hero .hero-wrapper .hero-content .inputfile+label, header.hero .hero-wrapper .hero-content form.start-a-project .inputfile+label, header.hero .hero-wrapper .hero-content h1, header.hero .hero-wrapper .hero-content h4 {
+    opacity: 0;
+    -webkit-transform: translateY(80px);
+    -ms-transform: translateY(80px);
+    transform: translateY(80px);
+}
+
+
+
+
+
+form.start-a-project header.hero .hero-wrapper .hero-content .inputfile+label, header.hero .hero-wrapper .hero-content form.start-a-project .inputfile+label, header.hero .hero-wrapper .hero-content h4 {
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+form.start-a-project header.hero.do-passpature .hero-content .inputfile+label, header.hero.do-passpature .hero-content form.start-a-project .inputfile+label, header.hero.do-passpature .hero-content h1, header.hero.do-passpature .hero-content h4 {
+    -webkit-animation: passpatureHeadlines 1.05s forwards;
+    animation: passpatureHeadlines 1.05s forwards;
+}
+
+
+
+
+
+.h4, form.start-a-project .inputfile+label, h4 {
+    font-size: 18px;
+    letter-spacing: 4px;
+    line-height: 38px;
+}
+
+
+header.hero+main {
+    position: relative;
+    background-color: #FFF;
+    margin-top: 100vh;
+}
+
+
+
+// nav 
+
+
+nav.main-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 105px;
+    padding: 25px 60px 10px;
+    z-index: 99998;
+    -webkit-transition: background-color .2s ease-in-out,-webkit-transform .7s ease-in-out;
+    transition: background-color .2s ease-in-out,-webkit-transform .7s ease-in-out;
+    transition: transform .7s ease-in-out,background-color .2s ease-in-out;
+    transition: transform .7s ease-in-out,background-color .2s ease-in-out,-webkit-transform .7s ease-in-out;
+}
+nav.main-menu.menu-hidden {
+    -webkit-transform: translateY(-131px);
+    transform: translateY(-131px);
+}
+
+
+
+
+
+
+
+
+
+
+
+

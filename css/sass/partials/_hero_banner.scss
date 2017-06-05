@@ -1,0 +1,34 @@
+// BUILTBYCHRIS
+// HERO BANNER STYLES
+
+
+
+
+section.hero_banner {
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    background: red;
+}
+
+
+.hero {
+	width: 100%;
+	height: 100%;
+}
+// Specific page images
+.hpHero {
+	background-image: url(../images/homepage/mac.jpg) ;
+	background-size: cover;	
+}
+
+
+
+
+
+
+
